@@ -3,6 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Microsoft Teams General Deep Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #444;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            display: block;
+            padding: 15px 25px;
+            background-color: #0078d4;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #005a9e;
+        }
+        p.note {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>Microsoft Teams General Deep Links</h1>
@@ -15,13 +53,7 @@
 
         <!-- Link to Schedule a New Meeting -->
         <li><a href="msteams://teams.microsoft.com/l/meeting/new">Schedule a New Meeting</a></li>
-
-        <!-- Link to Open the Calls Tab -->
-        <li><a href="msteams://teams.microsoft.com/l/calls">Open Calls Tab</a></li>
-
-        <!-- Link to Open the Calendar Tab -->
-        <li><a href="msteams://teams.microsoft.com/l/calendar">Open Calendar Tab</a></li>
     </ul>
-    <p>Note: These links are designed to open general areas within Microsoft Teams without requiring specific user or group information.</p>
+    <p class="note">Note: These links are designed to open general areas within Microsoft Teams without requiring specific user or group information.</p>
 </body>
 </html>
